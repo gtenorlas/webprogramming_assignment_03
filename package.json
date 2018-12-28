@@ -1,0 +1,8 @@
+{
+    "name": "a3-gene-tenorlas",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Gene Tenorlas",
+    "contributors": [],
+    "dependencies": {}
+}

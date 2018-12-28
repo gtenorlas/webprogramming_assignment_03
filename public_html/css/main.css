@@ -1,0 +1,26 @@
+/* 
+    Created on : Jun 3, 2016, 10:12:16 PM
+    Author     : Gene Tenorlas
+*/
+
+input[type=button]{
+    box-shadow: 5px 5px 5px #888;
+    border-color: rgb(230,236,176);
+    background-color: rgb(187,219,126);
+    width:100px;
+}
+
+input[type=button]:hover {
+    font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 40px 0 rgba(0,0,0,0.19);
+}
+
+.container{
+    align-items: center;
+    align-content:center;
+    text-align: center;
+}
+
+#output{
+    font-size:2em;
+}

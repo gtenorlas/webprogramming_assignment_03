@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 3 for Gene Tenorlas</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    </head>
+    <body>
+        <h1>Assignment 3</h1>
+        <h1>Gene Tenorlas</h1>
+        <h1>Instructor: Maninder Kaur Tatla</h1>
+        <hr>
+
+        <br>
+        <div class = "container">
+            <form name="myForm">
+                Enter quantity to convert:<br>
+                <input type="number" name="quantity" placeholder="Input the quantity here" autofocus required><br><br>
+                <input type="button" onclick="celcius(document.myForm.quantity.value)" value="Celcius">&#8195;
+                <input type="button" onclick="fahrenheit(document.myForm.quantity.value)" value="Fahrenheit"><br><br>
+                <input type="button" onclick="feet(document.myForm.quantity.value)" value="Feet">&#8195;
+                <input type="button" onclick="meters(document.myForm.quantity.value)" value="Meters"><br><br>
+                <input type="button" onclick="inches(document.myForm.quantity.value)" value="Inches">&#8195;
+                <input type="button" onclick="centimeters(document.myForm.quantity.value)" value="Centimeters"><br><br>
+                <input type="button" onclick="pounds(document.myForm.quantity.value)" value="Pounds">&#8195;
+                <input type="button" onclick="kilograms(document.myForm.quantity.value)" value="Kilograms"><br><br>
+                <input type="button" onclick="clean()" value="Reset"><br><br>
+            </form>
+            <p id="output"></p>
+        </div>
+
+        <script src="scripts/conversion.js">
+        </script>
+    </body>
+</html>
